@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
+//start express
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
